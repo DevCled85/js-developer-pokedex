@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    height: 15vh;
+    /* background-color: rgb(22, 199, 140); */
+    background-image: url(/assets/img/bg-header.png);
+    background-size: 400px 200px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: relative;
+}
+
+.container-header {
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header i {
+    padding: 0 19px;
+    /* color: #929292; */
+}
+
+.container-bottom {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    padding: 0 20px;
+}
+
+.container-bottom h1 {
+    margin: 0;
+}
